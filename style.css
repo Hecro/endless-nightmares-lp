@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  padding-top: 16.0rem;
+  background-image: url(./assets/background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+p {
+  color: #FFFFFF;
+  
+}
+
+span {
+  color: #FFC700;
+}
+
+h1 {
+  color: #FFC700;
+  font-family: 'Emilys Candy', cursive;
+  font-weight: 400;
+  font-size: 6.4rem;
+  line-height: 8.0rem;
+}
+
+.subtitle {
+  color: #FFFFFF;
+  opacity: 70%;
+  margin-bottom: 7.2rem;
+  font-weight: 400;
+  font-size: 2.0rem;
+}
+
+a {
+  padding: 1.2rem 3.2rem;
+  gap: 1.6rem;
+  font-weight: 700;
+  font-size: 2.0rem;
+  line-height: 2.4rem;
+}
+
+.readmore-btn {
+  color: #FFFFFF;
+  opacity: 60%;
+}
+
+.readmore-btn:hover {
+  opacity: 100%;
+  transition: 400ms;
+}
+
+.download-btn {
+  color: #040101;
+  background: #FFC700;
+  text-decoration: none;
+}
+
+.download-btn:hover {
+  filter: brightness(120%);
+  transition: 400ms;
+}
